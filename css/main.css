@@ -225,7 +225,8 @@ a:focus {
   margin: 1.5rem;
 }
 .earth {
-  position: absolute;
+  position: fixed;
+  object-fit: cover;
   left: -50%;
   z-index: -1;
 }
