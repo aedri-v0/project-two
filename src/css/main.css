@@ -40,7 +40,7 @@ iframe {
   --unnamed-line-spacing-123: 8.5417vw;
   --unnamed-font-size-24: 1.67vw;
   --unnamed-line-spacing-28: 1.95vw;
-  --unnamed-font-size-15: 1.01vw;
+  --unnamed-font-size-17: 1.25vw;
 }
 
 /* Character Styles */
@@ -48,7 +48,7 @@ iframe {
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-normal);
-  font-size: var(--unnamed-font-size-15);
+  font-size: var(--unnamed-font-size-17);
   line-height: var(--unnamed-line-spacing-41);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
@@ -214,12 +214,12 @@ a:focus {
   text-align: center;
 }
 .flex-container > img {
-  width: 27.7777vw;
+  width: 25rem;
   height: auto;
   margin: 1.6667vw;
 }
 .flex-container > div {
-  width: 44.4444vw;
+  width: 40rem;
   height: auto;
   margin: 1;
 }
