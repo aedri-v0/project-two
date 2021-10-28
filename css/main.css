@@ -94,7 +94,7 @@ iframe {
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
-  font-size: var(--unnamed-font-size-35-2);
+  font-size: var(--unnamed-font-size-35);
   line-height: var(--unnamed-line-spacing-43);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
@@ -189,7 +189,7 @@ body {
 }
 
 .panel {
-  margin: 6.1875rem;
+  margin: 6.875vw;
   display: none;
   background-color: var(--space);
   overflow: hidden;
