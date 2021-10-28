@@ -16,3 +16,15 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+const maxRotation = 1440;
+
+function handleScroll() {
+  console.log(window.scrollY);
+  if (window.scrollY < maxRotation) {
+    document.querySelector(".earth").style = `transform: rotate(${
+      window.scrollY / 4
+    }deg)`;
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
