@@ -152,7 +152,7 @@ iframe {
   border: none;
   text-align: center;
   outline: none;
-  font-size: 2rem;
+  font-size: 2.2222vw;
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-weight: var(--unnamed-font-weight-bold);
   font-style: var(--unnamed-font-style-normal);
