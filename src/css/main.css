@@ -32,14 +32,15 @@ iframe {
   --unnamed-font-style-normal: normal;
   --unnamed-font-weight-bold: bold;
   --unnamed-font-weight-normal: normal;
-  --unnamed-font-size-35: 2.1875rem;
-  --unnamed-font-size-100: 6.25rem;
-  --unnamed-character-spacing-0: 0rem;
-  --unnamed-line-spacing-41: 2.5625rem;
-  --unnamed-line-spacing-43: 2.6875rem;
-  --unnamed-line-spacing-123: 7.6875rem;
-  --unnamed-font-size-24: 1.5rem;
-  --unnamed-line-spacing-28: 1.75rem;
+  --unnamed-font-size-35: 2.43vw;
+  --unnamed-font-size-100: 6.9444vw;
+  --unnamed-character-spacing-0: 0vw;
+  --unnamed-line-spacing-41: 2.847vw;
+  --unnamed-line-spacing-43: 2.986vw;
+  --unnamed-line-spacing-123: 8.5417vw;
+  --unnamed-font-size-24: 1.67vw;
+  --unnamed-line-spacing-28: 1.95vw;
+  --unnamed-font-size-17: 1.25vw;
 }
 
 /* Character Styles */
@@ -47,7 +48,7 @@ iframe {
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-normal);
-  font-size: var(--unnamed-font-size-15);
+  font-size: var(--unnamed-font-size-17);
   line-height: var(--unnamed-line-spacing-41);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
@@ -64,8 +65,8 @@ iframe {
   line-height: var(--unnamed-line-spacing-123);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
-  padding-bottom: 3rem;
-  margin: 3rem;
+  padding-bottom: 3.3333vw;
+  margin: 3.3333vw;
   text-align: right;
 }
 .subsection-head {
@@ -76,7 +77,7 @@ iframe {
   line-height: var(--unnamed-line-spacing-43);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
-  margin: 2.1875rem;
+  margin: 2.43vw;
 }
 .subsection-head-plat {
   font-family: var(--unnamed-font-family-helvetica-neue);
@@ -86,7 +87,7 @@ iframe {
   line-height: var(--unnamed-line-spacing-43);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--platinum);
-  margin: 2.1875rem;
+  margin: 2.43vw;
 }
 .navtext {
   font-family: var(--unnamed-font-family-helvetica-neue);
@@ -106,7 +107,7 @@ iframe {
   line-height: var(--unnamed-line-spacing-43);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--platinum);
-  margin: 2.1875rem;
+  margin: 2.43vw;
   text-align: center;
 }
 .bod {
@@ -117,9 +118,9 @@ iframe {
   line-height: var(--unnamed-line-spacing-41);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--platinum);
-  margin-left: 6.1875rem;
-  margin-right: 6.1875rem;
-  margin-bottom: 1.75rem;
+  margin-left: 6.875vw;
+  margin-right: 6.875vw;
+  margin-bottom: 1.94444vw;
 }
 .bod-poe {
   font-family: var(--unnamed-font-family-helvetica-neue);
@@ -129,8 +130,8 @@ iframe {
   line-height: var(--unnamed-line-spacing-41);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
-  margin-left: 6.1875rem;
-  margin-right: 6.1875rem;
+  margin-left: 6.875vw;
+  margin-right: 6.875vw;
 }
 .logo {
   float: right;
@@ -138,7 +139,7 @@ iframe {
 }
 .logobtm {
   float: center;
-  max-width: 50rem;
+  max-width: 55.5555vw;
 }
 .btt {
   float: center;
@@ -150,17 +151,17 @@ iframe {
   border: none;
   text-align: center;
   outline: none;
-  font-size: 2rem;
+  font-size: 2.2222vw;
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-weight: var(--unnamed-font-weight-bold);
   font-style: var(--unnamed-font-style-normal);
-  border-radius: 3rem;
+  border-radius: 3.3333vw;
 }
 nav {
   float: right;
-  margin-right: 3rem;
-  margin-top: 1rem;
-  margin-left: 2.1875rem;
+  margin-right: 3.3333vw;
+  margin-top: 1.01vw;
+  margin-left: 2.43vw;
 }
 body {
   background-color: var(--space);
@@ -169,7 +170,7 @@ body {
   background-color: var(--space);
   color: var(--pieces-of-eight);
   cursor: pointer;
-  padding: 6.1875rem;
+  padding: 6.875vw;
   width: 100%;
   border: none;
   text-align: center;
@@ -187,7 +188,7 @@ body {
 }
 
 .panel {
-  margin: 6.1875rem;
+  margin: 6.875vw;
   display: none;
   background-color: var(--space);
   overflow: hidden;
@@ -215,12 +216,12 @@ a:focus {
 .flex-container > img {
   width: 25rem;
   height: auto;
-  margin: 1.5rem;
+  margin: 1.6667vw;
 }
 .flex-container > div {
   width: 40rem;
   height: auto;
-  margin: 1.5rem;
+  margin: 1;
 }
 .earth {
   position: absolute;
