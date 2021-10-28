@@ -33,7 +33,9 @@ iframe {
   --unnamed-font-weight-bold: bold;
   --unnamed-font-weight-normal: normal;
   --unnamed-font-size-35: 2.1875rem;
+  --unnamed-font-size-35-2: 2.4305vw;
   --unnamed-font-size-100: 6.25rem;
+  --unnamed-font-size-100-2: 6.9444vw;
   --unnamed-character-spacing-0: 0rem;
   --unnamed-line-spacing-41: 2.5625rem;
   --unnamed-line-spacing-43: 2.6875rem;
@@ -92,7 +94,7 @@ iframe {
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
-  font-size: var(--unnamed-font-size-35);
+  font-size: var(--unnamed-font-size-35-2);
   line-height: var(--unnamed-line-spacing-43);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--pieces-of-eight);
