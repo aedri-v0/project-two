@@ -1,6 +1,6 @@
 /* Decent Defaults */
 
-img {
+.pic {
   max-width: 70%;
   height: auto;
   display: block;
@@ -206,14 +206,24 @@ a:focus {
 }
 .flex-container {
   display: flex;
-  background-color: var(--space);
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .flex-container > img {
   width: 25rem;
   height: auto;
   margin: 1.5rem;
+}
+.flex-container > div {
+  width: 40rem;
+  height: auto;
+  margin: 1.5rem;
+}
+.earth {
+  position: absolute;
+  left: -50%;
+  z-index: -1;
 }
